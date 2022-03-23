@@ -1,0 +1,8 @@
+extends layout.pug
+block content
+  .container
+    h1 Team Members
+    ul
+      each m in members
+        li #{m.fn} #{m.ln}
+    a(href="/movies") Go back

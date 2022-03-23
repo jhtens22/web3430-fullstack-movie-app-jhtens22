@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= app_title
+    link(rel="stylesheet", href="/stylesheets/main.css")
+    script(src="/javascripts/main.js", defer)
+  body
+    div(class="container")
+      h3 #{ err.message || 'Something wend wrong!' }
+      p Code #{err.status}
+      pre #{err.stack}

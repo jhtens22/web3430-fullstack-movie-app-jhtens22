@@ -9,11 +9,4 @@ export function ErrorNotFound () {
   )
 }
 
-export function About(){
-  return (
-    <>
-      <h1>About this list</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, odit eligendi adipisci eius ex, accusamus perferendis nobis, explicabo ab ea consequuntur quisquam inventore eum nulla assumenda esse est ipsam sit.</p>
-    </>
-  )
-}
+
